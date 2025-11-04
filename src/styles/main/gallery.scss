@@ -70,6 +70,9 @@
     &--four {
       grid-column: 9 / -1;
     }
+
+    @include hover(box-shadow, 0 1px 18px 4px rgba(44, 44, 44, 0.64));
+    @include hover(transform, scale(1.05));
   }
 
   &__image {
