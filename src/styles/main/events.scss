@@ -1,5 +1,4 @@
 .events {
-  max-width: 1280px;
   margin: auto;
 
   &__title {
@@ -22,6 +21,8 @@
 
     @include on-desktop {
       padding-inline: 55px;
+      max-width: 1280px;
+      margin-inline: auto;
     }
   }
 
@@ -38,7 +39,12 @@
     }
 
     @include on-desktop {
+      max-width: 1280px;
       gap: 104px;
     }
+  }
+
+  &__exhibition {
+    max-width: 100vw;
   }
 }
